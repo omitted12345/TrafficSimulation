@@ -12,7 +12,7 @@ try:
         __file__), '..', '..', '..', '..', "tools"))  # tutorial in tests
     sys.path.append(os.path.join(os.environ.get("SUMO_HOME", os.path.join(
         os.path.dirname(__file__), "..", "..", "..")), "tools"))  # tutorial in docs
-    # sys.path.append("/usr/local/Cellar/sumo/1.2.0/share/sumo")
+    sys.path.append("/usr/local/Cellar/sumo/1.2.0/share/sumo/tools")
     from sumolib import checkBinary  # noqa
 except ImportError:
     sys.exit(
