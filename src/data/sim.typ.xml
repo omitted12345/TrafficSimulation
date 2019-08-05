@@ -1,0 +1,4 @@
+<types>
+	<type id="junction_in" priority="78" numLanes="2" speed="19.444"/>
+	<type id="junction_out" priority="46" numLanes="2" speed="11.111"/>
+</types>

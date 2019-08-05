@@ -1,0 +1,16 @@
+<configuration>
+	<input>
+		<node-files value="sim.nod.xml"/>
+		<edge-files value="sim.edg.xml"/>
+		<type-files value="sim.typ.xml"/>
+		<connection-files value="sim.con.xml"/>
+	</input>
+	
+	<output>
+		<output-file value="sim.net.xml"/>
+	</output>
+	
+	<report>
+		<verbose value="true"/>
+	</report>
+</configuration>
